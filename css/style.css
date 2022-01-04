@@ -15,23 +15,22 @@ h2 {
   color: orange;
 }
 
-section {
-  display: flex;
-}
+
 
 .top-banner {
+  display: flex;
   background-image: url(../img/top-banner.png);
   background-repeat: no-repeat;
 }
 
 .half-width {
-  padding-left: 5%;
+  margin-left: 5%;
   padding-top: 20px;
   width: 50%;
 }
 
 .half-width img {
-  width: 100%;
+  width: 80%;
 }
 
 .link-button {
@@ -49,6 +48,34 @@ section {
 }
 
 .dream {
+  display: flex;
+  margin-top: 100px;
   background-image: url(../img/dream-bg.png);
   background-repeat: no-repeat;
+  background-position: right;
+}
+
+#experience {
+  margin-top: 50px;
+  background-image: url(../img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 80%;
+}
+
+.ex-area {
+  display: flex;
+  margin-left: 5%;
+}
+
+.ex-half-width {
+  width: 40%;
+  padding: 20px 30px;
+  background-color: blanchedalmond;
+
+  margin-right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, cyan) 27;
+
+
 }
